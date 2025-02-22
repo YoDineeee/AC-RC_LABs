@@ -1,0 +1,66 @@
+1. Convert every number of your variant in direct, 1’s and 2’s complement 
+(pozitiv and negative) 
+2. Add the number: 
+a. Both positive (both binary addition)  
+b. Rule 2 (1’s complement) and Rule 2 (2’s complemet) 
+c. Rule 3 (1’s complement) Rule 3 (2’s complemet) 
+d. Rule 4 (1’s complement) Rule 4 (2’s complemet) 
+e. Overflow  
+f) change the sign of the number b. and c. point (The negative number 
+becomes positive and pozitive - becomes negative) make it in 1’s and 2’s 
+compliment and add the number. 
+
+
+Varient 12
+
+a    b   c    d   e 
++44 +17 +58 -23 +92 
++63 -45 -19 -69 +65
+
+
+1] -              
+     Decimal  1’s Complement                                                     
+        +44	 00101100                                            
+        +17	 00010001                    
+        +58	 00111010
+        –23	 10010111
+        +92	 01011100
+        +63	 00111111
+        –45	 10101101
+        –19	 10010011
+–       69	 11000101
+       +65	 01000001
+
+    2’s Complement
+	00101100
+	00010001
+	00111010
+	11101001
+    01011100
+	00111111
+	11010011
+	11101101
+	10111011
+	01000001
+
+2)
+
+
+  | Column | Numbers         | 1’s Complement Result | 2’s Complement Result | Note                                      |
+|--------|---------------|----------------------|----------------------|-------------------------------------------|
+| a      | +44 + +63      | 01101011 (+107)      | 01101011 (+107)      | Both positive; direct addition           |
+| b      | +17 + (–45)    | 11100011 (–28)       | 11100100 (–28)       | Mixed sign addition                      |
+| c      | +58 + (–19)    | 00100111 (+39)       | 00100111 (+39)       | Mixed sign addition                      |
+| d      | (–23) + (–69)  | 10100011 (–92)       | 10100100 (–92)       | Both negative; add end‐around carry (1’s comp) |
+| e      | +92 + +65      | 10011101*            | 10011101*            | *Overflow: result out of range (157>127) |
+
+
+
+
+f)
+| Column | Flipped Numbers  | 1's Complement Sum | 2's Complement Sum | Note                          |
+|--------|------------------|--------------------|--------------------|-------------------------------|
+| b      | -17 + +45        | 00011100 (+28)     | 00011100 (+28)     | -17 + 45 = +28                |
+| c      | -58 + +19        | 11011000 (-39)     | 11011001 (-39)     | -58 + 19 = -39                |
+
+
