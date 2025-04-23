@@ -1,0 +1,16 @@
+     1                                  
+     2                                  BITS 32
+     3                                  section .data
+     4 00000000 0A000000                A:    dd 10      ; 0x0A
+     5 00000004 14000000                B:    dd 20      ; 0x14
+     6 00000008 00000000                Sum:  dd 0
+     7                                  
+     8                                  section .text
+     9                                  global _start
+    10                                  _start:
+    11 00000000 A1[00000000]                mov   eax, [A]
+    12 00000005 0305[04000000]              add   eax, [B]
+    13 0000000B A3[08000000]                mov   [Sum], eax
+    14 00000010 89C3                        mov   ebx, eax
+    15 00000012 B801000000                  mov   eax, 1
+    16 00000017 CD80                        int   0x80
