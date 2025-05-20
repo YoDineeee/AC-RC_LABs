@@ -1,3 +1,4 @@
+
 section .data
     alfa times 6 db 0       ; simulate WORD 3 DUP(?) - 6 bytes (3 words)
 

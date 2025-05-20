@@ -1,5 +1,4 @@
-; Arithmetic expression for z=(2+1/a)/(3+1/(b*b))-1/(c*c)
-; Using NASM for Linux x86
+
 
 section .data
     ; Define variables (using floating point for precision)
