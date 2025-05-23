@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/93/Technical_University_of_Moldova_Logo.png/220px-Technical_University_of_Moldova_Logo.png" alt="UTM Logo" width="100"/>
+  <img src="/home/mrdine/University/2nd/semester2/AC-RC_LABs/AC/lab7 " alt="UTM Logo" width="100"/>
 </p>
 
 <h3 align="center">
