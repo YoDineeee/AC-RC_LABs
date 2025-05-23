@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/home/mrdine/University/2nd/semester2/AC-RC_LABs/AC/lab7 " alt="UTM Logo" width="100"/>
+  <img src="/home/mrdine/University/2nd/semester2/AC-RC_LABs/AC/lab7/pics/UTM.png " alt="UTM Logo" width="100"/>
 </p>
 
 <h3 align="center">
