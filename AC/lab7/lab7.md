@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="AC/lab7/pics/UTM.png" alt="UTM Logo" width="100"/>
+  <img src="pics/UTM.png" alt="UTM Logo" width="100"/>
 </p>
 
 <h3 align="center">
@@ -17,7 +17,7 @@
 ---
 
 <h2 align="center">
-  Mohamed Dhiaeddine Hassine  FAF-233  
+  PLOTEANU AUGUSTIN FAF-233  
   <br>
   <strong>Report</strong>  
   <br>
@@ -38,9 +38,27 @@
 
 ---
 
-<p align="center"><em>Chișinău – 2025</em></p
+<p align="center"><em>Chișinău – 2025</em></p>
 
-## 7.1 
+---
+
+## Section 7.1
+
+Before diving into code, here are two reference diagrams:
+
+<p align="center">
+  <img src="pics/1.png" alt="Diagram 1" width="500"/>
+  <br>
+  <em>Figure 1: Memory Architecture Overview</em>
+</p>
+
+<p align="center">
+  <img src="pics/2.png" alt="Diagram 2" width="500"/>
+  <br>
+  <em>Figure 2: Execution Flow of Instructions</em>
+</p>
+
+
 
 
 **File:** `complex1.asm`
