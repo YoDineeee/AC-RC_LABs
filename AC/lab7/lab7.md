@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="AC/lab7/pics/UTM.png " alt="UTM Logo" width="100"/>
+  <img src="AC/lab7/pics/UTM.png" alt="UTM Logo" width="100"/>
 </p>
 
 <h3 align="center">
@@ -38,55 +38,10 @@
 
 ---
 
-<p align="center"><em>Chișinău – 2025</em></p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<p align="center"><em>Chișinău – 2025</em></p
 
 ## 7.1 
+
 
 **File:** `complex1.asm`
 
@@ -177,6 +132,8 @@ _start:
     syscall
 
 ```
+
+
 
 
 ## 7.2 Assembly Instructions Reference
