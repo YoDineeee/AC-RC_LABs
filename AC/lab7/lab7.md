@@ -42,6 +42,26 @@
 
 ---
 
+
+## 1.Purpose of the laboratory
+Develop understanding and skills of x86 assembly language by writing, analysing, and debugging programs that perform arithmetic operations, data manipulation, and memory handling. Through step-by-step execution, instruction explanation, and practical implementations such as loops, conditional logic, and random data generation,  experience with low-level programming and processor behavior is gained.
+## 2.Conditions
+7.1.1. Run the program step-by-step in Debug mode, and comment on the program. To enter Debug mode, press the F10 key twice. A cursor-arrow will appear, pointing to the first executable instruction in the program. By pressing the F10 key repeatedly, the next instructions will be executed step by step. To view the state of the microprocessor registers, go to the top menu: Debug > Windows > Registers. To also view the state of data, go to Debug > Windows > Watch > Watch1, and enter the data offset (for example – alfa). If you need to display a sequence, for example alfa defined as a sequence of 3 words, enter: &alfa,3. You can also view data values in memory by selecting Debug > Windows > Memory > Memory1 and entering the data address in the Address field, for example: &alfa. The memory dump values in bytes, in hexadecimal format, will then appear below.
+
+
+## 7.1.2. Calculate the arithmetic expression:
+ e=((a+b*c-d)/f+g*h)/i. Perform assembly and execute step-by-step in Debug mode. 
+ 
+ 
+## 7.2.1. Explain the commands in the report:
+ ADD, ADC, SUB, SBB, CBW, CWD, CDQ, MUL, IMUL, DIV, IDIV, MOV, MOVZX, MOVSX, XCHG, XLAT, IN, OUT, LEA, LAHF, SAHF, PUSH, POP, PUSHFD, POPFD, PUSHAD, PUSHA, POPAD, РОРА, INC, DEC, NEG, CMP, JMP, JE, JZ, JNE, JNZ, JL/JNGE, JLE/JNG, JG/JNLE, JGE/JNL, JB/JNAE, JBE/JNA, JA/JNBE, JAE/JNB, JCXZ, AAA, AAS, DAS, AAM.
+## 7.2.2.
+ Analyze the following example, comment the code, and run it step by step in Debug mode. Include the Debugging mode process in the report. The data should be entered via the keyboard, and the result should be displayed on the screen (included it in the report). According to your individual assignment variant, develop two versions of the program: 1. With input data entered from the keyboard and the result displayed on the screen. 2. With generated input data using the procedures Randomize, Random32, and RandomRange.
+## 7.2.3 Make the following Program:
+ 1. Write a program with a loop and indexed addressing that exchanges every pair of values in an array with an even number of elements. Therefore, item i will exchange with item i+1, and item i+2 will exchange with item i+3, and so on. 2. Write a program that uses a loop to copy all the elements from an unsigned Word (16-bit) array into an unsigned doubleword (32-bit) array. 3.
+Create a procedure that generates a random string of length L, containing all capital letters. When calling the procedure, pass the value of L in EAX, and pass a pointer to an array of byte that will hold the random string. Write a test program that calls your procedure 20 times and displays the strings in the console window.
+
+
 ## Section 7.1
 
 Before diving into code, here are two reference diagrams:
@@ -58,6 +78,8 @@ Before diving into code, here are two reference diagrams:
   <em>Figure 2: Execution Flow of Instructions</em>
 </p>
 
+
+The program initializes an array `alfa`, storing the final value `21o` (17 decimal) into it. `EBX` is set to point to `alfa`, and values are moved between registers and memory using various addressing modes. It uses `MOV`, `XCHG`, and indexed addressing (`[EBX+ESI]`, etc.) to manipulate memory, ultimately writing `55h` at offset 4 and `33h` to several locations relative to `alfa`.
 
 
 
