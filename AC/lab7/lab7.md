@@ -1,3 +1,91 @@
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/93/Technical_University_of_Moldova_Logo.png/220px-Technical_University_of_Moldova_Logo.png" alt="UTM Logo" width="100"/>
+</p>
+
+<h3 align="center">
+  MINISTERUL EDUCAȚIEI, CULTURII ȘI CERCETĂRII  
+  <br>
+  AL REPUBLICII MOLDOVA  
+  <br>
+  Universitatea Tehnică a Moldovei  
+  <br>
+  Facultatea Calculatoare, Informatică și Microelectronică  
+  <br>
+  Departamentul Inginerie Software și Automatică
+</h3>
+
+---
+
+<h2 align="center">
+  Mohamed Dhiaeddine Hassine  FAF-233  
+  <br>
+  <strong>Report</strong>  
+  <br>
+  <em>Laboratory work nr. 7</em>  
+  <br>
+  <strong><em>of Computer Architecture</em></strong>
+</h2>
+
+---
+
+<p align="right">
+  Checked by:  
+  <br>
+  <strong>Olga Grosu</strong>, <em>university assistant</em>  
+  <br>
+  <span style="color:red">DISA, FCIM, UTM</span>
+</p>
+
+---
+
+<p align="center"><em>Chișinău – 2025</em></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## 7.1 
 
 **File:** `complex1.asm`
