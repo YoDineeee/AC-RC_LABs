@@ -830,3 +830,6 @@ random_string_done:
     ret
 
 ```
+
+## Conclusion
+In conclusion, have been developed skills in x86 assembly programming, focusing on fundamental concepts such as arithmetic operations, data transfer, control flow, and memory access. Have been implemented a variety of programs, including arithmetic expression evaluation, pairwise element swapping in arrays, type conversion from 16-bit to 32-bit values, and a procedure to generate random uppercase strings. Each program contained the use of loops, conditional jumps, indexed addressing, and procedure calls, which are key assembly concepts. 
